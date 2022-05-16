@@ -3,7 +3,7 @@
 
 
 CREATE TABLE "Customer" (
-    "Customer_ID" str   NOT NULL,
+    "Customer_ID" varchar   NOT NULL,
     "Bank_Balance" float   NOT NULL,
     "Customer_Type" str   NOT NULL,
     CONSTRAINT "pk_Customer" PRIMARY KEY (
@@ -14,8 +14,8 @@ CREATE TABLE "Customer" (
 CREATE TABLE "Transaction" (
     "Transaction_ID" int   NOT NULL,
     "Transaction_Time" time   NOT NULL,
-    "Origin_ID" str   NOT NULL,
-    "Reciever_ID" str   NOT NULL,
+    "Origin_ID" varchar   NOT NULL,
+    "Reciever_ID" varchar   NOT NULL,
     "Transaction_Type" str   NOT NULL,
     "Transaction_Amount" float   NOT NULL,
     "Is_Fraud" int   NOT NULL,
