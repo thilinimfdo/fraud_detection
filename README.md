@@ -19,7 +19,8 @@ I plan to use supervised learning techniques to predict whether a given transact
 - I first want to try out different analysis to select proper features. Such analysis would be statisical correlation, Gini Importance from Random Forest.
 - With the help of filtered features, I would try different approaches such as Logistic Regression, SVM, Random Forest, XGBoost. 
 - One of the challenges I need to overcome is the data set is highly skewed towards benign transactions and will make the model biased towards many false negatives.
-- My two main objectives for ML selection would be to minimize false negatives (actual frauds getting tagged as benigns) and minized false positives (actual benign ones are getting tagged as frauds). The first case will decrease the effectivness of the ML while the later case will increase customer dis-statisfaction a lot when they get their genuine transactions blocked.
+- The ML task will be a classification having boolean output to denote whether each transaction is fraud or not.
+- My two main objectives for ML selection would be to minimize false negatives (actual frauds getting tagged as benigns) and minimized false positives (actual benign ones are getting tagged as frauds). The first case will decrease the effectivness of the ML while the later case will increase customer dis-statisfaction a lot when they get their genuine transactions blocked.
 - I plan to use Python for ML modelling and R for correlation and initial feature selection.
 
 ## Database
