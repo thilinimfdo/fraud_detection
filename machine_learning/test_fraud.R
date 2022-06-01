@@ -23,7 +23,7 @@ library(ROCR)
 
 #data.ariff.new = data.ariff
 #data.ariff = data.ariff.new[1:5000,]
-#write.csv(data.ariff, "/Users/ruwini/Documents/R/Anomaly_Detection/new_1_5000.csv")
+#write.csv(data.ariff, "new_1_5000.csv")
 #rm(data.ariff.new)
 
 for(l in names(data.ariff)) {
@@ -181,7 +181,7 @@ summary(conf_mat)
 print(conf_mat)
 
 #XGBoost
-#data.xgb = read.arff("/Users/ruwini/Documents/R/testApp/credit_fruad.arff")
+#data.xgb = read.arff("credit_fruad.arff")
 library(xgboost)
 library(doMC)
 library(dplyr)
@@ -241,8 +241,8 @@ glimpse(data.ariff)
 X_train_rf = subset(X_train, select = -c(nameDest, nameOrig))
 X_test_rf = subset(X_test, select = -c(nameDest, nameOrig))
 
-#write.csv(X_train_rf, "/Users/ruwini/Documents/R/Anomaly_Detection/rf_train.csv")
-#write.csv(X_test_rf, "/Users/ruwini/Documents/R/Anomaly_Detection/rf_test.csv")
+#write.csv(X_train_rf, "rf_train.csv")
+#write.csv(X_test_rf, "rf_test.csv")
 
 X_train_rf %>%
   select(isFraud) %>%
