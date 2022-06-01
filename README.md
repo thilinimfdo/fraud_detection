@@ -4,6 +4,10 @@ The objective of the project is to predict whether a given financial transaction
 
 Fraudulent transactions are costing the financial industry a huge overhead and it is rising [[1]](#1). Given the nature of our course work and my desire to find employment in the finance industry, I believe working on a similar project will be immensely helpful.
 
+## Presentation
+
+[Link to the Presentation](https://docs.google.com/presentation/d/17_lhxTyAYm6PLRg3AcPNkO0016ZkEDYT/edit?usp=sharing&ouid=118315510912750425598&rtpof=true&sd=true)
+
 ## Data Source
 
 I am planning on using the PaySim dataset from Kaggle.com [[2]](#2). The dataset is generated based on financial transactions collected over a month in Africa. It records individual transactions with different types. Given there are multiple sources, I selected this data source given that each transaction is labelled whether it is fraud or not. 
