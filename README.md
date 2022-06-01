@@ -41,6 +41,8 @@ The entire data set of PaySim is 6M+ which was impossible to load and train the 
 
 The above Entity Relationship Diagram shows two main entities in the data set: Customer and the Transactions. Each transaction is coined with two customer data points: the cutomer sending the money (or originating the transaction) and the customer recieving the money. I plan to use PostGres SQL for this project.
 
+I have so far written the [script](https://github.com/thilinimfdo/fraud_detection/blob/main/data/csv_to_db.py) to transform the csv data to a sql lite database based on the above entity relationship diagram.
+
 ## Deployment
 
 I used Python sklearn to implement Random Forest. A separate train module is embedded so that if there is no trained model, the code initiate a model.
