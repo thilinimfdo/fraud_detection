@@ -41,7 +41,9 @@ The above Entity Relationship Diagram shows two main entities in the data set: C
 
 I used Python sklearn to implement Random Forest. A separate train module is embedded so that if there is no trained model, the code initiate a model.
 I also used to one hot encoding to represent the categorical variable of payment type.
-I used Python Flask to publish a rest API to call and detect whether a given transaction is fraudulent or not
+I used Python Flask to publish a rest API to call and detect whether a given transaction is fraudulent or not. The following image shows how to call the API and it returns 0 saying it is likely a benign transaction.
+
+![API Call](https://github.com/thilinimfdo/fraud_detection/blob/main/api_service/rest_api.jpg)
 
 ## Dashboard
 
