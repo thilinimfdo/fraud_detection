@@ -97,6 +97,17 @@ class Fraud_Name(Resource):
 
 api.add_resource(Fraud_Name, '/isfraud/<amount>/<new_balance_orig>/<old_balance_dest>/<new_balance_dest>/<typec>') # Route_1
 
+@app.route('/handle_data', methods=['POST'])
+def handle_data():
+    # your code
+    # return a response
+    isFraud = predict(request.form['amount'], request.form['new_balance_orig'], request.form['old_balance_dest'], request.form['new_balance_dest'], request.form['typec'])
+    if isFraud == 0:
+        text = "The Transaction is likely benign"
+    else:
+        text = "The Transaction looks suspicious and needs to dig more"
+    return text
+
 
 if __name__ == '__main__':
      app.run(port='5002', debug=True)
