@@ -64,25 +64,37 @@ The web will return the following output saying whether its bening or fraud.
 
 ### Time and Fraud
 
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/FraudvsTime/Sheet1)
+
 ![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_time.png)
 
 ### Fraud Ratio vs Benign Ratio
+
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Amount_Fraud)
 
 ![Fraud vs Bening Ratio](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/count_fraud.png)
 
 ### Closing balance of Receiver vs Fraud
 
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet4)
+
 ![Close Balance](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination_Balance_vs_Fraud.png)
 
-### Fraud Time vs Fraud
+### Fraud Amount vs Fraud
+
+[Tableau link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet3)
 
 ![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_amount.png)
 
 ### Transaction Type vs Fraud
 
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_Type/Fraud_vs_Type)
+
 ![Type vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_vs_Type.png)
 
 ### Opening Balance of Sender vs Fraud
+
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet5)
 
 ![Sender vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Old_Origin_vs_fraud.png)
 
