@@ -72,7 +72,7 @@ The web will return the following output saying whether its bening or fraud.
 
 ### Closing balance of Receiver vs Fraud
 
-![Close Balance] (https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination%20Balance%20vs%20Fraud.png)
+![Close Balance](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination_Balance_vs_Fraud.png)
 
 ### Fraud Time vs Fraud
 
