@@ -8,6 +8,8 @@ Fraudulent transactions are costing the financial industry a huge overhead and i
 
 [Link to the Presentation](https://docs.google.com/presentation/d/1vcCLSUWVL2v4KA1WReFpHsrDAQz0dPHJ/edit?usp=sharing&ouid=118315510912750425598&rtpof=true&sd=true)
 
+[Link to the Video](https://youtu.be/886nIEKqzC8)
+
 ## Data Source
 
 I am planning on using the PaySim dataset from Kaggle.com [[2]](#2). The dataset is generated based on financial transactions collected over a month in Africa. It records individual transactions with different types. Given there are multiple sources, I selected this data source given that each transaction is labelled whether it is fraud or not. 
