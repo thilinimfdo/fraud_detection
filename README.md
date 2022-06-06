@@ -8,7 +8,7 @@ Fraudulent transactions are costing the financial industry a huge overhead and i
 
 [Link to the Presentation](https://docs.google.com/presentation/d/1vcCLSUWVL2v4KA1WReFpHsrDAQz0dPHJ/edit?usp=sharing&ouid=118315510912750425598&rtpof=true&sd=true)
 
-[Link to the Video](https://youtu.be/886nIEKqzC8)
+[Link to the Video](https://www.youtube.com/watch?v=886nIEKqzC8)
 
 ## Data Source
 
