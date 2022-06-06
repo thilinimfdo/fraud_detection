@@ -51,11 +51,40 @@ I used Python Flask to publish a rest API to call and detect whether a given tra
 
 ![API Call](https://github.com/thilinimfdo/fraud_detection/blob/main/api_service/rest_api.jpg)
 
+We also deployed a web form so that people can use to enter the transaction data to see whether it is fraudulent or not.
+
+![Web Form](https://github.com/thilinimfdo/fraud_detection/blob/main/api_service/form.jpg)
+
+The web will return the following output saying whether its bening or fraud.
+
+![Benign Response](https://github.com/thilinimfdo/fraud_detection/blob/main/api_service/benign_transaction.jpg)
+![Fraud Response](https://github.com/thilinimfdo/fraud_detection/blob/main/api_service/fraudulent_transaction.jpg)
+
 ## Dashboard
 
-I plan to use Tableau to visualize the distribution of the benign and fraudulent transaction.
-I also plan to create a webpage that uses the rest API where users can enter the value and get a response whether it’s a fraud or not.
+### Time and Fraud
 
+![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_time.png)
+
+### Fraud Ratio vs Benign Ratio
+
+![Fraud vs Bening Ratio](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/count_fraud.png)
+
+### Closing balance of Receiver vs Fraud
+
+![Close Balance] (https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination%20Balance%20vs%20Fraud.png)
+
+### Fraud Time vs Fraud
+
+![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_amount.png)
+
+### Transaction Type vs Fraud
+
+![Type vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_vs_Type.png)
+
+### Opening Balance of Sender vs Fraud
+
+![Sender vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Old_Origin_vs_fraud.png)
 
 
 ## References
