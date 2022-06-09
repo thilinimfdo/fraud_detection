@@ -6,7 +6,9 @@ Fraudulent transactions are costing the financial industry a huge overhead and i
 
 ## Presentation
 
-[Link to the Presentation](https://docs.google.com/presentation/d/17_lhxTyAYm6PLRg3AcPNkO0016ZkEDYT/edit?usp=sharing&ouid=118315510912750425598&rtpof=true&sd=true)
+[Link to the Presentation](https://docs.google.com/presentation/d/1vcCLSUWVL2v4KA1WReFpHsrDAQz0dPHJ/edit?usp=sharing&ouid=118315510912750425598&rtpof=true&sd=true)
+
+[Link to the Video](https://www.youtube.com/watch?v=886nIEKqzC8)
 
 ## Data Source
 
@@ -64,25 +66,37 @@ The web will return the following output saying whether its bening or fraud.
 
 ### Time and Fraud
 
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/FraudvsTime/Sheet1)
+
 ![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_time.png)
 
 ### Fraud Ratio vs Benign Ratio
+
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Amount_Fraud)
 
 ![Fraud vs Bening Ratio](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/count_fraud.png)
 
 ### Closing balance of Receiver vs Fraud
 
-![Close Balance] (https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination%20Balance%20vs%20Fraud.png)
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet4)
 
-### Fraud Time vs Fraud
+![Close Balance](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Destination_Balance_vs_Fraud.png)
+
+### Fraud Amount vs Fraud
+
+[Tableau link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet3)
 
 ![Time vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_amount.png)
 
 ### Transaction Type vs Fraud
 
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_Type/Fraud_vs_Type)
+
 ![Type vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Fraud_vs_Type.png)
 
 ### Opening Balance of Sender vs Fraud
+
+[Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Sheet5)
 
 ![Sender vs Fraud](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Old_Origin_vs_fraud.png)
 
