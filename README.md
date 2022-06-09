@@ -41,6 +41,8 @@ The entire data set of PaySim is 6M+ which was impossible to load and train the 
 
 ## Database
 
+[Interactive Story](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Story1)
+
 ![Entity Relationship Diagram](https://github.com/thilinimfdo/fraud_detection/blob/main/data/erd.jpeg)
 
 The above Entity Relationship Diagram shows two main entities in the data set: Customer and the Transactions. Each transaction is coined with two customer data points: the cutomer sending the money (or originating the transaction) and the customer recieving the money. I plan to use PostGres SQL for this project.
