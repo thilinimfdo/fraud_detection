@@ -68,6 +68,8 @@ The web will return the following output saying whether its bening or fraud.
 
 [Dashboard on Balance vs Fraud](https://public.tableau.com/app/profile/thilini.fernando/viz/Fraud_count_circle/Dashboard1)
 
+![Dashboard Balance](https://github.com/thilinimfdo/fraud_detection/blob/main/dashboard/Dashboard_balance_fraud.png)
+
 ### Time and Fraud
 
 [Tableau Link](https://public.tableau.com/app/profile/thilini.fernando/viz/FraudvsTime/Sheet1)
