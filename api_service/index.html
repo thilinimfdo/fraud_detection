@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Fraud Detection</title>
+  </head>
+  <body>
+    <form action="http://localhost:5002/handle_data" method="post">
+        <table>
+        <tr>
+            <td>Amount of the transaction:</td><td><input type="text" name="amount"></td>
+        </tr>
+        <tr>
+            <td>Balance of the Sender After the transaction:</td><td><input type="text" name="new_balance_orig"></td></tr>
+        <tr>
+            <td>Balance of the Receiver Before the Transaction:</td><td><input type="text" name="old_balance_dest"></td></tr>
+        <tr>
+            <td>Balance of the Receiver After the Transaction:</td><td><input type="text" name="new_balance_dest"></td></tr>
+        <tr>
+            <td>Type of the Transaction:</td><td><select id="typec" name="typec">
+              <option value="CASH_IN">Cash In</option>
+              <option value="CASH_OUT">Cash Out</option>
+              <option value="DEBIT">Debit</option>
+              <option value="PAYMENT">Payment</option>
+              <option value="TRANSFER">Transfer</option>
+            </select></td></tr>
+            <tr><td></td><td><input type="submit"></td></tr>
+        </table>
+    </form>
+  </body>
+</html>
