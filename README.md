@@ -35,7 +35,9 @@ For each techniques, I tried different feature combinations. For Random Forest, 
 
 ![Gini Importance](https://github.com/thilinimfdo/fraud_detection/blob/main/machine_learning/gini_importance.jpg)
 
-The entire data set of PaySim is 6M+ which was impossible to load and train the model. So I selected random 5000 data points and did the feature selection. Given the highly skewed dataset, my main selection criteria was the biasness of the model. I used Kappa value to measure the biasness. Anything below 0.5 resembles a biasness. Random Forest with 5 features produced the highest kappa value hence I selected Random Forest for the project.
+The entire data set of PaySim is 6M+ which was impossible to load and train the model. So I selected random 5000 data points and did the feature selection. Given the highly skewed dataset, my main selection criteria was the biasness of the model. I used Kappa value to measure the biasness. Anything below 0.5 resembles a biasness. Random Forest with 5 features produced the highest kappa value hence I selected Random Forest for the project. The following diagram shows the ROC graph for the selected RF model.
+
+![ROC Graph](https://github.com/thilinimfdo/fraud_detection/blob/main/machine_learning/fraud_rf.png)
 
 ## Database
 
